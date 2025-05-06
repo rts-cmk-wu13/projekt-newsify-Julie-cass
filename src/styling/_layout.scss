@@ -1,0 +1,24 @@
+/*   @use './ ';   */
+@use './placeholder/header';
+
+@use './placeholder/genre'; 
+
+@use './placeholder/footer';
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+body{
+    max-width: 24.5rem;
+    width: 24.5rem;
+    
+    background-color: black;
+    .wrapper{
+        background-color: #fff;
+    }
+}
+

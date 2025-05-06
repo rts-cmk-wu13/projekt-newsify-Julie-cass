@@ -1,0 +1,34 @@
+.title {
+    display: flex;
+    justify-content: center;
+
+    .logo_img {
+
+        margin: auto 0;
+    }
+
+    .firma_name {
+        margin: auto 0;
+        color: #404040;
+    }
+}
+
+
+.search_con input {
+    width: 18rem;
+    height: 3.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-radius: 0.3em;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+    background-color: #f0f0f0;
+
+
+}
