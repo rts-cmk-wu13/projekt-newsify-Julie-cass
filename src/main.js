@@ -30,8 +30,17 @@ document.querySelector("main").append(sectionElem)
 document.querySelector("footer").append(berry)
 
 
+const fetchData = async () => {
+  const popArticles = await getmostPopular('viewed', 7);
+  const Article = await arcticleSearch('query', filter);
+  
+  console.log(popArticles);
+  console.log('get here now', Article);
+};
 
-const popArticles = await getmostPopular('viewed', 7);
+fetchData();
+
+/* const popArticles = await getmostPopular('viewed', 7);
 const Article = await arcticleSearch('query', filter);
 console.log(popArticles)
-console.log('get here now',Article)
+console.log('get here now',Article) */
